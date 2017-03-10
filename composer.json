@@ -1,0 +1,26 @@
+{
+    "name": "vendi-advertising/vendi-shared-database-utils",
+    "type": "library",
+    "description": "WordPress database utility",
+    "keywords": ["vendi","vendi-advertising"],
+    "homepage": "https://github.com/vendi-advertising/vendi-shared-database-utils",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Haas",
+            "email": "chris@vendiadvertising.com",
+            "homepage": "https://www.vendiadvertising.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev" : {
+        "phpunit/phpunit": "*",
+        "scrutinizer/ocular": "*"
+    },
+    "autoload": {
+        "psr-4": {"Vendi\\Shared\\": "src/"}
+    }
+}
